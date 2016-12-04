@@ -99,6 +99,7 @@ sum(2, 2) == 4 ? exit(0) : exit(1)
 $ git bisect start
 $ git bisect bad
 $ git bisect good b60423b2edbfecf3234a7a0d91c393c59fe5c2e2
+$ git bisect run ruby test.rb
 ...
 9a4ad0f04d3b7f96c5036708d7c20b4f0253ea06 is the first bad commit
 ```
