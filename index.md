@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<header class="masthead">
+<header class="masthead wat">
   <h1 class="masthead-title">
     <a href="{{ site.baseurl }}/">{{ site.name }}<span>&#39;s blog</span></a>
   </h1>
